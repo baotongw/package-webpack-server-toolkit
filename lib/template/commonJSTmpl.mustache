@@ -1,0 +1,22 @@
+;(function(__context) {
+    var module = {
+        id : "{{md5Key}}" ,
+        filename : "{{fileName}}" ,
+        exports : {}
+    };
+	
+    if( !__context.____MODULES ) { 
+        __context.____MODULES = {}; 
+    }
+    
+    var r = (function( exports , module , global ) {
+        
+        //----------原始文件代码----------
+        {{{content}}}
+        //----------原始文件代码----------
+        
+    })( module.exports , module , __context );
+    
+    __context.____MODULES[ "{{md5Key}}" ] = module.exports;
+    
+})(this);

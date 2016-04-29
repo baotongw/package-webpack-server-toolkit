@@ -1,6 +1,6 @@
 {
   "name": "package-webpack-server-toolkit",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "This repository host the toolkit for webpack dev server, custom-made by qunar package team. It contain some middlewares which will used by the express site to handle the specify request like the .vm file (velocity) and other custom request operations",
   "main": "index.js",
   "scripts": {
@@ -18,16 +18,26 @@
     "toolkit"
   ],
   "dependencies": {
+    "commander": "^2.9.0",
     "md5": "^2.0.0",
+    "mu2": "^0.5.20",
+    "mustache": "^2.2.1",
+    "package-require-handler": "0.0.3",
     "velocityjs": "^0.7.5"
   },
   "author": {
     "name": "baotong.wang",
-    "email": "baotong.wang@qunar.com"
+    "email": "sdwangbaotong@hotmail.com"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sdwangbaotong/package-webpack-server-toolkit/issues"
   },
+  "maintainers": [
+    {
+      "name": "baotong.wang",
+      "email": "sdwangbaotong@hotmail.com"
+    }
+  ],
   "homepage": "https://github.com/sdwangbaotong/package-webpack-server-toolkit"
 }
