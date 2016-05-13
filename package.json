@@ -18,11 +18,14 @@
     "toolkit"
   ],
   "dependencies": {
+    "async": "^2.0.0-rc.4",
     "commander": "^2.9.0",
     "md5": "^2.0.0",
     "mu2": "^0.5.20",
     "mustache": "^2.2.1",
     "package-require-handler": "0.0.3",
+    "request": "^2.72.0",
+    "underscore": "^1.8.3",
     "velocityjs": "^0.7.5"
   },
   "author": {
