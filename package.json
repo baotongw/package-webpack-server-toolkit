@@ -1,6 +1,6 @@
 {
   "name": "package-webpack-server-toolkit",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "This repository host the toolkit for webpack dev server, custom-made by qunar package team. It contain some middlewares which will used by the express site to handle the specify request like the .vm file (velocity) and other custom request operations",
   "main": "index.js",
   "scripts": {
